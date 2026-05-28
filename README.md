@@ -30,3 +30,10 @@ The portfolio website includes:
 - Current Learning Path
 - Contact
 
+## Contact
+- Portfolio: [https://wbudi75.github.io](https://wbudi75.github.io)
+- GitHub: [https://github.com/wbudi75](https://github.com/wbudi75)
+- Website: [https://tujuhlima.my.id](https://tujuhlima.my.id)
+- LinkedIn: [https://linkedin.com/in/wbudi75](https://linkedin.com/in/wbudi75)
+- Email: [wbudi75@yandex.com](mailto:wbudi75@yandex.com)
+- Location: Balikpapan, Indonesia

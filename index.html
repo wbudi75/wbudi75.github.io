@@ -1,32 +1,246 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Wahyu Budi - IT Infrastructure & Cybersecurity</title>
+  <meta name="description" content="Portfolio Wahyu Budi - Network Infrastructure, Linux Server, IT Cybersecurity, OSINT, Virtualization Lab, and IT Training." />
+
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Wahyu Budi</h1>
-  <p>Network Infrastructure & IT Cybersecurity Practitioner</p>
 
-  <h2>Core Skills</h2>
-  <ul>
-    <li>Network Infrastructure</li>
-    <li>Linux Server</li>
-    <li>Windows Server / Active Directory</li>
-    <li>Firewall, Routing, VPN</li>
-    <li>Cybersecurity</li>
-    <li>OSINT</li>
-    <li>Virtualization Lab</li>
-  </ul>
+  <header class="site-header">
+    <nav class="navbar">
+      <div class="brand">Wahyu Budi</div>
 
-  <h2>Projects</h2>
-  <ul>
-    <li>Wazuh Lab</li>
-    <li>Debian Server Training</li>
-    <li>Basic Networking Training</li>
-    <li>Cybersecurity Awareness Training</li>
-    <li>TUJULIMA IT Training & Services</li>
-  </ul>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Core Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#learning">Learning Path</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="hero-content">
+        <p class="badge">Network Infrastructure • IT Cybersecurity • Linux Lab</p>
+
+        <h1>Wahyu Budi</h1>
+
+        <h2>Network Infrastructure & IT Cybersecurity Practitioner</h2>
+
+        <p class="hero-text">
+          Saya memiliki pengalaman kuat di bidang IT Infrastructure, Networking,
+          Server Administration, Firewall, Virtualization, dan saat ini fokus
+          mengembangkan kemampuan di bidang Cybersecurity, OSINT, Web3 Security,
+          dan AI-assisted Security Workflow.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn primary">View Projects</a>
+          <a href="#contact" class="btn secondary">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-header">
+        <h2>About Me</h2>
+        <p>Profil singkat profesional</p>
+      </div>
+
+      <div class="card">
+        <p>
+          Saya berlatar belakang IT Infrastructure dengan fokus pada implementasi
+          jaringan, server, firewall, troubleshooting, backup, dan operasional IT.
+          Saat ini saya mengembangkan kompetensi ke arah cybersecurity praktis,
+          termasuk OSINT, lab pentesting, SIEM/Wazuh, Linux server, dan Web3 Security.
+        </p>
+
+        <p>
+          Fokus saya adalah membangun solusi IT yang praktis, aman, terdokumentasi,
+          dan dapat digunakan untuk kebutuhan bisnis, training, maupun lab pembelajaran.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-header">
+        <h2>Core Skills</h2>
+        <p>Keahlian utama</p>
+      </div>
+
+      <div class="grid">
+        <div class="skill-card">Network Infrastructure</div>
+        <div class="skill-card">LAN / WAN Implementation</div>
+        <div class="skill-card">Firewall, Routing & VPN</div>
+        <div class="skill-card">Linux Server Administration</div>
+        <div class="skill-card">Windows Server / Active Directory</div>
+        <div class="skill-card">MikroTik, VyOS, pfSense / OPNsense</div>
+        <div class="skill-card">VirtualBox, Incus & GNS3</div>
+        <div class="skill-card">Cybersecurity Awareness</div>
+        <div class="skill-card">OSINT Investigation</div>
+        <div class="skill-card">Basic Pentesting Lab</div>
+        <div class="skill-card">Wazuh / SIEM Lab</div>
+        <div class="skill-card">Python & Bash Scripting</div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="section-header">
+        <h2>Experience Focus</h2>
+        <p>Area pengalaman kerja dan implementasi</p>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>IT Infrastructure & Network Operations</h3>
+          <p>
+            Instalasi dan maintenance jaringan, rack server, switch, router,
+            firewall, internet failover, serta troubleshooting operasional IT.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <h3>Server Administration</h3>
+          <p>
+            Implementasi Windows Server, Active Directory, Domain Controller,
+            DHCP Server, file sharing, backup DC, dan administrasi Linux server.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <h3>Security & Lab Environment</h3>
+          <p>
+            Membangun lab cybersecurity berbasis Linux, VirtualBox, Incus,
+            vulnerable machine, SIEM/Wazuh, OSINT workflow, dan basic pentesting.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <h3>Training & Documentation</h3>
+          <p>
+            Menyusun materi pelatihan Basic Networking, Linux Server,
+            Cybersecurity Awareness, Docker, dan Junior Pentester.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-header">
+        <h2>Projects</h2>
+        <p>Project dan lab yang sedang dikembangkan</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>Cybersecurity Lab</h3>
+          <p>
+            Lab pribadi untuk belajar Linux, networking, vulnerable machine,
+            SIEM, OSINT, dan pentesting workflow.
+          </p>
+          <span>Linux • VirtualBox • Incus</span>
+        </article>
+
+        <article class="project-card">
+          <h3>Wazuh Lab</h3>
+          <p>
+            Desain lab monitoring endpoint dan security event analysis
+            menggunakan Wazuh.
+          </p>
+          <span>Blue Team • SIEM • Monitoring</span>
+        </article>
+
+        <article class="project-card">
+          <h3>Debian Server Training</h3>
+          <p>
+            Materi training administrasi Debian Server untuk siswa SMK,
+            guru, dan junior sysadmin.
+          </p>
+          <span>Debian • Linux Server • Training</span>
+        </article>
+
+        <article class="project-card">
+          <h3>Basic Networking Training</h3>
+          <p>
+            Materi dasar jaringan komputer, subnetting, routing, switching,
+            firewall, dan troubleshooting.
+          </p>
+          <span>Networking • Routing • Switching</span>
+        </article>
+
+        <article class="project-card">
+          <h3>OSINT Workflow</h3>
+          <p>
+            Workflow investigasi berbasis open source intelligence untuk
+            analisis scam, job fraud, dan digital footprint.
+          </p>
+          <span>OSINT • Investigation • Cyber</span>
+        </article>
+
+        <article class="project-card">
+          <h3>TUJUH LIMA</h3>
+          <p>
+            Inisiatif jasa dan training IT yang fokus pada infrastruktur,
+            cybersecurity, Linux, networking, dan digital skill.
+          </p>
+          <span>IT Services • Training Center</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="learning" class="section">
+      <div class="section-header">
+        <h2>Current Learning Path</h2>
+        <p>Fokus pengembangan skill</p>
+      </div>
+
+      <div class="card">
+        <ul class="learning-list">
+          <li>OSINT for Cyber Investigation</li>
+          <li>Web Application Security</li>
+          <li>Web3 Security and Blockchain Analysis</li>
+          <li>Blue Team Monitoring with Wazuh</li>
+          <li>Docker, Incus, and Virtualization Lab</li>
+          <li>AI-assisted Cybersecurity Workflow</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="section-header">
+        <h2>Contact</h2>
+        <p>Hubungi saya untuk kolaborasi, training, atau diskusi IT</p>
+      </div>
+
+      <div class="contact-card">
+        <p><strong>GitHub:</strong> <a href="https://github.com/wbudi75" target="_blank">github.com/wbudi75</a></p>
+        <p><strong>Website:</strong> <a href="https://tujuhlima.my.id" target="_blank">tujuhlima.my.id</a></p>
+        <p><strong>Email:</strong> <a href="mailto:wbudi75@yandex.com">wbudi75@yandex.com</a></p>
+        <p><strong>Location:</strong> Balikpapan, Indonesia</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Wahyu Budi. Built with GitHub Pages.</p>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="app.js"></script>
 </body>
 </html>

@@ -30,9 +30,3 @@ The portfolio website includes:
 - Current Learning Path
 - Contact
 
-## Project Structure
-wbudi75.github.io/
-├── index.html
-├── style.css
-├── app.js
-└── README.md
